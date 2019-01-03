@@ -6,15 +6,39 @@ The game takes input(strings and numbers) from the console and writes output to 
 Start a new game:
 Next Step(x:1~3, y:1~3):
 1,1
-Start a new game:
+
+ X * *
+ * * *
+ * * *
+
+ X * O
+ * * *
+ * * *
 Next Step(x:1~3, y:1~3):
-1,1
+3,1
 
-X * *
-* * *
-* * *
+ X * O
+ * * *
+ X * *
 
-X * O
-* * *
-* * *
+ X * O
+ O * *
+ X * *
+Next Step(x:1~3, y:1~3):
+3,3
 
+ X * O
+ O * *
+ X * X
+
+ X * O
+ O O *
+ X * X
+Next Step(x:1~3, y:1~3):
+3,2
+
+ X * O
+ O O *
+ X X X
+You win! Game Over!
+Do you want to play again? (yes or no)
